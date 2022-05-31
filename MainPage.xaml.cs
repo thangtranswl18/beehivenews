@@ -20,6 +20,21 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+	private void onTextChanged(object obj, EventArgs e) {
+		Console.WriteLine(obj);
+    }
+
+	private void onTextCompleted(object obj, EventArgs e)
+    {
+		Console.WriteLine(obj);
+    }
+
+	private void onSubmit(object obj, EventArgs e)
+    {
+		Console.WriteLine(editor.Text);
+    }
+
 }
 
 

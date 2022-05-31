@@ -18,9 +18,14 @@
                    HorizontalOptions="Start"/>
 
             <Editor HorizontalOptions="Fill"
+                    x:Name="editor"
+                    TextChanged="onTextChanged"
+                    Completed="onTextCompleted"
+                    Placeholder="Enter your name"
                     HorizontalTextAlignment="Start" />
-            <Label Text="Center"
-                   BackgroundColor="yellow"
+            <Button x:Name="submitBtn" Text="submit"
+                    Clicked="onSubmit"
+                   TextColor="black"
                    HorizontalOptions="Center" />
             <Label Text="End" HorizontalOptions="End" BackgroundColor="green"/>
         </VerticalStackLayout>
