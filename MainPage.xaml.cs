@@ -1,4 +1,6 @@
-﻿namespace BeehiveNews;
+﻿using BeehiveNews.BL;
+
+namespace BeehiveNews;
 
 public partial class MainPage : ContentPage
 {
@@ -33,6 +35,9 @@ public partial class MainPage : ContentPage
 	private void onSubmit(object obj, EventArgs e)
     {
 		Console.WriteLine(editor.Text);
+		var scraper = new WebParse();
+		 scraper.Start();
+		//await DisplayAlert("Submit your name", "Do you want to submit your information", "Yes");
     }
 
 }

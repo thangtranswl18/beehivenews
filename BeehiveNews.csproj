@@ -45,4 +45,14 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="IronWebScraper" />
+	  <None Remove="BL\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="IronWebScraper" Version="2021.11.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="BL\" />
+	</ItemGroup>
 </Project>

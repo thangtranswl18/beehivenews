@@ -263,3 +263,5 @@
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/obj/Debug/net6.0-ios/iossimulator-x64/BeehiveNews.pdb
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/obj/Debug/net6.0-ios/iossimulator-x64/BeehiveNews.genruntimeconfig.cache
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/obj/Debug/net6.0-ios/iossimulator-x64/ref/BeehiveNews.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/IronWebScraper.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/System.Drawing.Common.dll

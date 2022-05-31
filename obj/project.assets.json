@@ -11,6 +11,18 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -168,6 +180,25 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -1583,6 +1614,18 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -1740,6 +1783,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3146,6 +3198,18 @@
       }
     },
     "net6.0-ios15.4": {
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -3294,6 +3358,25 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3316,6 +3399,18 @@
       }
     },
     "net6.0-ios15.4/iossimulator-x64": {
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -3464,6 +3559,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3486,6 +3590,18 @@
       }
     },
     "net6.0-maccatalyst15.4": {
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -3634,6 +3750,25 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3656,6 +3791,18 @@
       }
     },
     "net6.0-maccatalyst15.4/iossimulator-x64": {
+      "IronWebScraper/2021.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronWebScraper.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -3804,6 +3951,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3843,6 +3999,24 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "IronWebScraper/2021.11.0": {
+      "sha512": "T/T2P9xXEfeeY513aiyGgiY8J5jNDKucVybR5yqlSk4wETgHJt8btvwNFAHUkbqmEcI8ATUvW5r9JkfIlSqLzA==",
+      "type": "package",
+      "path": "ironwebscraper/2021.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "ironwebscraper.2021.11.0.nupkg.sha512",
+        "ironwebscraper.nuspec",
+        "lib/net452/IronWebScraper.dll",
+        "lib/net452/IronWebScraper.xml",
+        "lib/netstandard2.0/IronWebScraper.dll",
+        "lib/netstandard2.0/IronWebScraper.xml",
+        "readme-setup.txt",
+        "readme.txt"
       ]
     },
     "Microsoft.Extensions.Configuration/6.0.1": {
@@ -4130,6 +4304,48 @@
         "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/5.0.2": {
+      "sha512": "rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -6031,15 +6247,18 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
+      "IronWebScraper >= 2021.11.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312"
     ],
     "net6.0-ios15.4": [
+      "IronWebScraper >= 2021.11.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.4": [
+      "IronWebScraper >= 2021.11.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
@@ -6094,6 +6313,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "IronWebScraper": {
+            "target": "Package",
+            "version": "[2021.11.0, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.312, )",
@@ -6151,6 +6374,10 @@
       "net6.0-ios15.4": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "IronWebScraper": {
+            "target": "Package",
+            "version": "[2021.11.0, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.312, )",
@@ -6199,6 +6426,10 @@
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "IronWebScraper": {
+            "target": "Package",
+            "version": "[2021.11.0, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.312, )",
@@ -6251,5 +6482,67 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Drawing.Common 5.0.2' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.InteropServices.NFloat.Internal 6.0.1' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.InteropServices.NFloat.Internal",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Drawing.Common 5.0.2' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4/iossimulator-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4/iossimulator-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.InteropServices.NFloat.Internal 6.0.1' was resolved as a dependency of 'BeehiveNews', but the dependency is using 'Xamarin.iOS' while 'BeehiveNews' is using 'net6.0-maccatalyst15.4' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.InteropServices.NFloat.Internal",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4/iossimulator-x64"
+      ]
+    }
+  ]
 }

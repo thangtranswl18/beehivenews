@@ -50,6 +50,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "IronWebScraper": {
+              "target": "Package",
+              "version": "[2021.11.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.312, )",
@@ -107,6 +111,10 @@
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "IronWebScraper": {
+              "target": "Package",
+              "version": "[2021.11.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.312, )",
@@ -155,6 +163,10 @@
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "IronWebScraper": {
+              "target": "Package",
+              "version": "[2021.11.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.312, )",
