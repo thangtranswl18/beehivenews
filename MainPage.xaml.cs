@@ -36,7 +36,7 @@ public partial class MainPage : ContentPage
 		Console.WriteLine(obj);
     }
 
-	private void onSubmit(object obj, EventArgs e)
+	private async void onSubmit(object obj, EventArgs e)
     {
 		Console.WriteLine(editor.Text);
 		Console.WriteLine("start the exception");
@@ -61,8 +61,9 @@ public partial class MainPage : ContentPage
         } finally
         {
 			Console.WriteLine("end of exception");
-        }
-		//await DisplayAlert("Submit your name", "Do you want to submit your information", "Yes");
+			await DisplayAlert("Submit your name", "Do you want to submit your information", "Yes");
+		}
+		
     }
 
 }
