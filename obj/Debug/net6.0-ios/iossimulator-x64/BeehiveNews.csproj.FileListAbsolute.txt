@@ -265,3 +265,7 @@
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/obj/Debug/net6.0-ios/iossimulator-x64/ref/BeehiveNews.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/IronWebScraper.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/System.Drawing.Common.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/CsQuery.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/System.Reactive.Core.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/System.Reactive.Interfaces.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/SkyScraper.dll

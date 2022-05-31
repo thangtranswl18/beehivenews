@@ -1,4 +1,5 @@
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/icudt.dat
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/CsQuery.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/IronWebScraper.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.Extensions.Configuration.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.Extensions.Configuration.Abstractions.dll
@@ -9,6 +10,9 @@
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.Extensions.Options.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.Extensions.Primitives.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.Maui.Graphics.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/System.Reactive.Core.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/System.Reactive.Interfaces.dll
+/Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/SkyScraper.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/System.Drawing.Common.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/BeehiveNews.dll
 /Users/thangtran/Projects/BeehiveNews/BeehiveNews/bin/Debug/net6.0-ios/iossimulator-x64/publish/../BeehiveNews.app/Microsoft.CSharp.dll
