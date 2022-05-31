@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeehiveNews.MainPage">
+    <StackLayout
+        BackgroundColor="violet"
+        HorizontalOptions="Fill"
+        >
+        
+        <VerticalStackLayout
+            Padding="25"
+            BackgroundColor="pink"
+            HeightRequest="200"
+            HorizontalOptions="Fill">
+            <Label Text="Start"
+
+                   BackgroundColor="red"
+                   HorizontalOptions="Start"/>
+
+            <Editor HorizontalOptions="Fill"
+                    HorizontalTextAlignment="Start" />
+            <Label Text="Center"
+                   BackgroundColor="yellow"
+                   HorizontalOptions="Center" />
+            <Label Text="End" HorizontalOptions="End" BackgroundColor="green"/>
+        </VerticalStackLayout>
+       <StackLayout
+BackgroundColor="orange"
+            HorizontalOptions="Fill" Padding="20, 4, 20, 0">
+            <Label Text="Windows XP" Margin="30"/>
+            <Label Text="Windows Vista" Margin="10"/>
+            <Label Text="Windows 11"/>
+
+
+        </StackLayout>
+			 
+    <ScrollView BackgroundColor="gray">
+        <VerticalStackLayout
+            Spacing="25" 
+            Padding="30,0" 
+            VerticalOptions="Center">
+                
+            <Label 
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+            
+            <Label 
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button 
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+        
+
+    </StackLayout>
+ 
+</ContentPage>
+

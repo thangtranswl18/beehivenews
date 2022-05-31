@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{0C7AA168-D969-4B68-8405-6C9E0B0B82D4}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Platforms/Android/MainApplication.cs">
+    <Files>
+      <File FileName="MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MainPage.xaml" Line="43" Column="1" />
+      <File FileName="Platforms/Android/MainApplication.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BeehiveNews.App" expanded="True" selected="True">
+            <Node name="BeehiveNews" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BeehiveNews PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.103DC63F-AA4D-4D55-8C8C-90744E969E3B" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
